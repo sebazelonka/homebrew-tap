@@ -9,7 +9,7 @@ cask "opentraffic" do
 
   app "OpenTraffic.app"
 
-  # La app esta firmada ad-hoc; sin esto Gatekeeper bloquea el primer inicio
+  # The app is ad-hoc signed; without this, Gatekeeper blocks the first launch
   postflight do
     system_command "/usr/bin/xattr",
                    args: ["-dr", "com.apple.quarantine", "#{appdir}/OpenTraffic.app"]
