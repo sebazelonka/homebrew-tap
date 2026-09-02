@@ -1,6 +1,6 @@
 cask "opentraffic" do
-  version "0.6.3"
-  sha256 "51feabb3c5154a79639a3bb13489ee7d235a8d2bec194508245a2a82121437d1"
+  version "0.6.4"
+  sha256 "0b6023c993e13f9449447dfdfc0d9340f836b80d82e31aa2faf3bbd24040ce70"
 
   url "https://open-traffic-site.vercel.app/downloads/OpenTraffic.dmg"
   name "OpenTraffic"
