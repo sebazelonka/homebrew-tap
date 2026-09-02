@@ -3,7 +3,9 @@
 Instalación de [OpenTraffic](https://open-traffic-site.vercel.app/) vía Homebrew:
 
 ```bash
-brew install --cask sebazelonka/tap/opentraffic
+brew tap sebazelonka/tap
+brew trust sebazelonka/tap
+brew install --cask opentraffic
 ```
 
 El cask apunta al DMG canónico servido por Vercel; el CI del repo privado de la
