@@ -11,7 +11,7 @@ cask "ai-chat-markdown" do
   # flags provenance on Tahoe+; drop quarantine after install.
   postflight do
     system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/#{APP_NAME}.app"]
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/AI Chat Markdown.app"]
   end
 
   app "AI Chat Markdown.app"
