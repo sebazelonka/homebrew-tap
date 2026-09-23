@@ -1,0 +1,14 @@
+Casks/opentraffic.rb
+  h_1e5b19aa131761 12-20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "0978a0e5406b5c38dd283aeb288c3622f0f4bc92",
+  "prompts": {},
+  "humans": {
+    "h_1e5b19aa131761": {
+      "author": "open-traffic-release <955591+sebazelonka@users.noreply.github.com>"
+    }
+  }
+}
