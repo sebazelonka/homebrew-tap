@@ -1,0 +1,16 @@
+Casks/ai-chat-markdown.rb
+  h_13ff512929856b 12
+Casks/opentraffic.rb
+  h_13ff512929856b 2-3,5,14,20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "a1c039812d97df7128e7ebc9b3544bd243d105b4",
+  "prompts": {},
+  "humans": {
+    "h_13ff512929856b": {
+      "author": "Sebastian Zelonka <github@zlnk.im>"
+    }
+  }
+}
