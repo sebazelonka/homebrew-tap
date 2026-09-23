@@ -1,0 +1,18 @@
+Casks/opentraffic.rb
+  h_13ff512929856b 2-3,5
+  h_1e5b19aa131761 10-13,15,17-18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "59bd8908f6c839a8ea22c7a7a419e8f4dd746fb2",
+  "prompts": {},
+  "humans": {
+    "h_13ff512929856b": {
+      "author": "Sebastian Zelonka <github@zlnk.im>"
+    },
+    "h_1e5b19aa131761": {
+      "author": "open-traffic-release <955591+sebazelonka@users.noreply.github.com>"
+    }
+  }
+}
