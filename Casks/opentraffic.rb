@@ -7,15 +7,17 @@ cask "opentraffic" do
   desc "Menu bar app that routes links to the right app"
   homepage "https://open-traffic-site.vercel.app/"
 
-  # Official stanza: quits the app before the bundle is replaced. Replaces the
-  # old preflight osascript (preflight_steps, the suggested rename, does not
-  # support system_command in current Homebrew).
-  quit "zlnk.OpenTraffic"
-
   app "OpenTraffic.app"
 
-  # The app is ad-hoc signed until Developer ID (security plan phase 6);
-  # while the download carries quarantine, Gatekeeper blocks first launch.
+  # Quit the app before replacing the bundle so brew upgrade does not need a
+  # manual quit/reopen. Kept on preflight/postflight: the *_steps names
+  # Homebrew suggests are a new declarative DSL that does not support
+  # system_command (nor quit) yet.
+  preflight do
+    system_command "/usr/bin/osascript", args: ["-e", 'quit app "OpenTraffic"']
+  end
+
+  # The app is ad-hoc signed; without this, Gatekeeper blocks the first launch.
   # Relaunch at the end so the menu bar icon comes back on its own.
   postflight do
     system_command "/usr/bin/xattr",
