@@ -1,0 +1,19 @@
+Casks/ai-chat-markdown.rb
+  s_e7d5afcccf0dab::t_f0b169ef76c9a5 10-13,16-17,19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9a876d75d4619c8dc720c7acf8dc3c422f54e189",
+  "prompts": {},
+  "sessions": {
+    "s_e7d5afcccf0dab": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1649f-16c8-7681-bda5-d3f543f40ab2",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "Sebastian Zelonka <github@zlnk.im>"
+    }
+  }
+}
