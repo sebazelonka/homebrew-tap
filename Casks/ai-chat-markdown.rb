@@ -7,12 +7,13 @@ cask "ai-chat-markdown" do
   desc "Local-first AI chat app: every session saved as markdown on disk"
   homepage "https://gitlab.com/sebazelonka/ai-chat-markdown"
 
-  # The binary is ad-hoc signed (no Apple Developer account), so Gatekeeper
-  # flags provenance on Tahoe+; drop quarantine after install.
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/AI Chat Markdown.app"]
-  end
+  depends_on :macos
 
   app "AI Chat Markdown.app"
+
+  # The binary is ad-hoc signed (no Apple Developer account), so Gatekeeper
+  # flags provenance on Tahoe+; drop quarantine after install.
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/AI Chat Markdown.app"]
+  end
 end
