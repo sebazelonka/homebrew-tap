@@ -1,0 +1,19 @@
+Casks/opentraffic.rb
+  s_8bec2c7822b846::t_f4560b952e2529 10-11,15-17,21-24
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9100a0099f1440cc8e898129f03daceee76cf5fe",
+  "prompts": {},
+  "sessions": {
+    "s_8bec2c7822b846": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "s_8bec2c7822b846",
+        "model": "unknown"
+      },
+      "human_author": "Sebastian Zelonka <github@zlnk.im>"
+    }
+  }
+}
