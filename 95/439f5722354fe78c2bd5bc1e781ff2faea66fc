@@ -1,0 +1,19 @@
+Casks/opentraffic.rb
+  s_25b76cc6f30487::t_0813f9cdfd64cc 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "95439f5722354fe78c2bd5bc1e781ff2faea66fc",
+  "prompts": {},
+  "sessions": {
+    "s_25b76cc6f30487": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "s_25b76cc6f30487",
+        "model": "unknown"
+      },
+      "human_author": "Sebastian Zelonka <github@zlnk.im>"
+    }
+  }
+}
