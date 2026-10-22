@@ -2,7 +2,7 @@ cask "opentraffic" do
   version "0.0.4"
   sha256 "7e4d38a887968648ccb1f4660d257628cde3b46398586431f1f0d5f10759fc0d"
 
-  url "https://open-traffic-site.vercel.app/downloads/OpenTraffic-0.0.4.dmg"
+  url "https://open-traffic-site.vercel.app/downloads/OpenTraffic-#{version}.dmg"
   name "OpenTraffic"
   desc "Menu bar app that routes links to the right app"
   homepage "https://open-traffic-site.vercel.app/"
